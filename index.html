@@ -34,7 +34,7 @@ function showDiff() {
     date1 = Date.parse('today');
     diff = (Math.abs(date2 - date1));
     result = (diff / 4320000) + "%";
-  } else if (diff > 432000000) {
+  } else if (diff > 100000000000000000) {
     result = 100 + "%";
   }
   document.getElementById("showp").innerHTML = result;
